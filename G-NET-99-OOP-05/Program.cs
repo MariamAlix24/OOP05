@@ -24,6 +24,12 @@
             //c)A parameterless block used to initialize static data or perform one-time setup. It is executed automatically once before the first instance is created or any static member is accessed.
             //d)A class that contains only static members and cannot be instantiated or inherited. No, you cannot create an object from it using the new keyword.
             #endregion
+            #region Question4
+            //a)A special static method that allows you to add new methods to an existing type without modifying its original source code, inheriting from it, or recompiling it.
+            //b)The this modifier keyword.
+            //c)Inside a static class (as a static method).
+            //d)No. It behaves like an external caller and can only access public or internal members.
+            #endregion
             #endregion
         }
     }
