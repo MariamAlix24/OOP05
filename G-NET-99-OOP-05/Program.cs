@@ -11,6 +11,13 @@
             /*c)Copying a reference: Copies only the memory pointer. Both variables share and modify the same instance.
             Copying an object (Cloning): Creates a brand-new instance in memory with duplicate data. Modifying the new object does not affect the original.*/
             #endregion
+            #region Question2
+            //a)A bitwise copy of an object. It copies all value-type fields directly, but for reference-type fields, it only copies their memory addresses.
+            //b)A complete copy of an object along with all nested objects it references. It creates fully independent duplicates at every level of the object hierarchy.
+            //c)Both the original and copied objects share the exact same reference-type instances. Modifying a reference member in one object will automatically affect the other.
+            //d)Brand-new instances of the reference-type members are allocated in memory. The original and copied objects hold separate references, making them completely isolated from each other.
+            //e)When an object contains mutable reference-type fields (such as a list or custom class) that will be modified independently—like cloning a user profile with an editable list of items—without risking accidental side effects on the original object.
+            #endregion
             #endregion
         }
     }
