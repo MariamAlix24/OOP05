@@ -30,6 +30,12 @@
             //c)Inside a static class (as a static method).
             //d)No. It behaves like an external caller and can only access public or internal members.
             #endregion
+            #region Question5
+            //a)A feature that allows the definition of a single class, struct, or interface to be split across multiple .cs files. The compiler combines them into a single class during compilation.
+            //b)To separate auto-generated code from custom code (like in Visual Studio designers), or to allow multiple developers to work on the same class simultaneously without merge conflicts.
+            //c)A method declared in one partial class file whose optional implementation can be written in another partial file.
+            //d)The compiler automatically removes the method signature and all calls to it at compile time, incurring zero runtime overhead.
+            #endregion
             #endregion
         }
     }
